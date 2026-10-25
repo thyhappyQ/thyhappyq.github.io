@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="zh_CN">
 	<head>
-		<title>Thyhappy‘s website</title>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
+
 		<style>
-			body {
-				background-color: deepskyblue;
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-image: url('background.png')
+			body{
+				background-color:rgb(120, 185, 238)
+			}
+
+			.greeting{
+				position:relative;
+				height:20vh;
+				width:60vw;
+				background-color: rgb(250, 250, 250);
+				left:20vw;
+				top:12vh;
+				border-radius: 15px;
+				opacity: 60%;
+				box-shadow: 10px 10px 10px;
+			}
+
+			.greeting_text{
+				background-color: black;
+				height:15%;
+				width:50%;
+				top:45%;
+				left:25%;
+				position: relative;
+				border-radius:20px;
+				text-align: center;
+				color: aliceblue;
 			}
 		</style>
 	</head>
 	<body>
+		<div class="greeting">
+			<p class="greeting_text">Hello World</p>
+		</div>
 	</body>
 </html>
